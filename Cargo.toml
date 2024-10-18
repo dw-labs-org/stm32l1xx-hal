@@ -1,19 +1,10 @@
 [package]
 edition = "2018"
 authors = ["Vitaly Domnikov <oss@vitaly.codes>"]
-categories = [
-    "embedded",
-    "hardware-support",
-    "no-std",
-]
+categories = ["embedded", "hardware-support", "no-std"]
 description = "Peripheral access API for STM32L1 series microcontrollers"
 documentation = "https://docs.rs/stm32l1xx-hal"
-keywords = [
-    "arm",
-    "cortex-m",
-    "stm32l1xx",
-    "hal",
-]
+keywords = ["arm", "cortex-m", "stm32l1xx", "hal"]
 license = "MIT/Apache-2.0"
 name = "stm32l1xx-hal"
 readme = "README.md"
@@ -21,9 +12,9 @@ repository = "https://github.com/stm32-rs/stm32l1xx-hal"
 version = "0.1.0"
 
 [dependencies]
-cortex-m = "0.7.1"
+cortex-m = "0.7.7"
 nb = "1.0.0"
-stm32l1 = "0.14.0"
+stm32l1 = "0.15.1"
 bare-metal = "1.0.0"
 
 [dependencies.stm32-usbd]
